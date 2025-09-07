@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+body{
+    background-color: rgba(153, 195, 230, 0.418);
+    background-image: url(3534139.png);
+    background-repeat: no-repeat;
+    background-position: 1300px 200px ;
+    background-size: 500px;
+    margin-left: 100px;
+
+
+}
+
+h1{
+    font-family: "Story Script";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+label{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+input{
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid gray;
+    outline: 0;    
+    margin-bottom: 20px;
+    border-radius: 0.5em;
+   }
+
+.texto{
+        width: 300px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    .termos{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+.botao{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid#ccc;
+    background-color: #eee;
+    margin-left: 10px;
+    width: 250px;
+    border-radius: 0.5em;
+}
+
+.botao:hover{
+    background-color: gray;
+    
+}
+
+
+fieldset{
+    background-color: #eee;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    width: 800px;
+    border-radius: 0.5em;
+}
+
+legend{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+select{
+    height: 47px;
+    margin-bottom: 20px;
+}
